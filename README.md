@@ -8,7 +8,7 @@ Requirements
 
 Define a user in defaults/main.yml to clone all of their repos from.
 
-I created this as I had a need to ensure that all of my GitHub repos were always clone locally and in-full. I also wanted a way to have the ability to update and commit changes from the cloned destination In order to do this you must have SSH Keys added to the Users repo in which you want to make changes to.
+I created this as I had a need to ensure that all of my GitHub repos were always cloned locally and in-full. I also wanted a way to have the ability to update and commit changes from the cloned destination In order to do this you must have SSH Keys added to the Users repo in which you want to make changes to. Also allows adding additional GitHub users to github_users variable to pull others repos as well :)
 
 Role Variables
 --------------
@@ -16,9 +16,14 @@ Role Variables
 ````
 ---
 # defaults file for ansible-clone-git-repos
-github_repo_root: /tmp/GitHub  #define destination to store GitHub repos to be cloned
-github_user: mrlesmithjr  #define github user to clone repos from
+github_repo_root: ../../GitHub  #define destination to store GitHub repos to be cloned
+github_users:  #define github user(s) to clone repos from
+  - bunchc
+  - lowescott
+  - Mierdin
+  - mrlesmithjr
 repos_file: ../vars/git_repos.yml  #leave this as-is
+return_items: 1000  #defines the number of items to return per-page on the uri API call to GitHub....This equates to the number of repos.
 ````
 
 Execution
