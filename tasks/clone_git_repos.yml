@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  connection: local
+  sudo: false
+#  vars:
+  vars_files:
+    - ../vars/git_repos.yml
+  tasks:
+    - name: cloning repos
+      git: repo="ssh://git@github.com/{{ item.full_name }}.git" dest="{{ github_repo_root }}/{{ github_user }}/{{ item.name }}"
+      with_items: github_repos

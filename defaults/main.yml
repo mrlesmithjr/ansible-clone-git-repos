@@ -1,0 +1,5 @@
+---
+# defaults file for ansible-clone-git-repos
+github_repo_root: /tmp/GitHub  #define destination to store GitHub repos to be cloned
+github_user: mrlesmithjr  #define github user to clone repos from
+repos_file: ../vars/git_repos.yml  #leave this as-is

@@ -1,0 +1,20 @@
+---
+- hosts: localhost
+  connection: local
+  sudo: false
+  vars:
+#    - github_repo_root: ../GitHub
+#    - github_user: mrlesmithjr
+#    - repos_file: ./git_repos.yml
+  vars_files:
+    - ../defaults/main.yml
+  tasks:
+    - name: creating folder
+      file: path={{ github_repo_root }}/{{ github_user }} state=directory
+
+    - name: gathering repos
+      uri: url="https://api.github.com/users/{{ github_user }}/repos?per_page=1000"
+      register: github_repos
+
+    - name: write files
+      template: src=../templates/query_git_repos.j2 dest={{ repos_file }}

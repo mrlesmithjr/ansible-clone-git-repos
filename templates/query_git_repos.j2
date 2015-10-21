@@ -1,0 +1,12 @@
+---
+github_repo_root: {{ github_repo_root }}
+github_user: {{ github_user }}
+repos_file: {{ repos_file }}
+github_repos:
+{% for item in github_repos.json %}
+  - name: {{ item.name }}
+    full_name: {{ item.full_name }}
+    git_url: {{ item.git_url }}
+    ssh_url: {{ item.ssh_url }}
+    custom_url: {{ item.ssh_url }}
+{% endfor %}
