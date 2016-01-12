@@ -787,6 +787,31 @@ github_repos:
     git_url: git://github.com/debops/docs.git
     ssh_url: git@github.com:debops/docs.git
     user: debops
+  - name: dstamen.github.io
+    full_name: dstamen/dstamen.github.io
+    git_url: git://github.com/dstamen/dstamen.github.io.git
+    ssh_url: git@github.com:dstamen/dstamen.github.io.git
+    user: dstamen
+  - name: PowerCLI
+    full_name: dstamen/PowerCLI
+    git_url: git://github.com/dstamen/PowerCLI.git
+    ssh_url: git@github.com:dstamen/PowerCLI.git
+    user: dstamen
+  - name: UCS-PowerTool
+    full_name: dstamen/UCS-PowerTool
+    git_url: git://github.com/dstamen/UCS-PowerTool.git
+    ssh_url: git@github.com:dstamen/UCS-PowerTool.git
+    user: dstamen
+  - name: Vagrant
+    full_name: dstamen/Vagrant
+    git_url: git://github.com/dstamen/Vagrant.git
+    ssh_url: git@github.com:dstamen/Vagrant.git
+    user: dstamen
+  - name: Zenoss
+    full_name: dstamen/Zenoss
+    git_url: git://github.com/dstamen/Zenoss.git
+    ssh_url: git@github.com:dstamen/Zenoss.git
+    user: dstamen
   - name: 2015-belgium-vmug
     full_name: lowescott/2015-belgium-vmug
     git_url: git://github.com/lowescott/2015-belgium-vmug.git
@@ -1587,3 +1612,48 @@ github_repos:
     git_url: git://github.com/mrlesmithjr/shell_scripts.git
     ssh_url: git@github.com:mrlesmithjr/shell_scripts.git
     user: mrlesmithjr
+  - name: vagrant-ansible-ddi
+    full_name: mrlesmithjr/vagrant-ansible-ddi
+    git_url: git://github.com/mrlesmithjr/vagrant-ansible-ddi.git
+    ssh_url: git@github.com:mrlesmithjr/vagrant-ansible-ddi.git
+    user: mrlesmithjr
+  - name: vagrant-ansible-docker
+    full_name: mrlesmithjr/vagrant-ansible-docker
+    git_url: git://github.com/mrlesmithjr/vagrant-ansible-docker.git
+    ssh_url: git@github.com:mrlesmithjr/vagrant-ansible-docker.git
+    user: mrlesmithjr
+  - name: vagrant-ansible-nginx-loadbalancing
+    full_name: mrlesmithjr/vagrant-ansible-nginx-loadbalancing
+    git_url: git://github.com/mrlesmithjr/vagrant-ansible-nginx-loadbalancing.git
+    ssh_url: git@github.com:mrlesmithjr/vagrant-ansible-nginx-loadbalancing.git
+    user: mrlesmithjr
+  - name: vagrant-ansible-routing-template
+    full_name: mrlesmithjr/vagrant-ansible-routing-template
+    git_url: git://github.com/mrlesmithjr/vagrant-ansible-routing-template.git
+    ssh_url: git@github.com:mrlesmithjr/vagrant-ansible-routing-template.git
+    user: mrlesmithjr
+  - name: vagrant-ansible-template
+    full_name: mrlesmithjr/vagrant-ansible-template
+    git_url: git://github.com/mrlesmithjr/vagrant-ansible-template.git
+    ssh_url: git@github.com:mrlesmithjr/vagrant-ansible-template.git
+    user: mrlesmithjr
+  - name: vagrant-box-templates
+    full_name: mrlesmithjr/vagrant-box-templates
+    git_url: git://github.com/mrlesmithjr/vagrant-box-templates.git
+    ssh_url: git@github.com:mrlesmithjr/vagrant-box-templates.git
+    user: mrlesmithjr
+  - name: vSphere-Python
+    full_name: mrlesmithjr/vSphere-Python
+    git_url: git://github.com/mrlesmithjr/vSphere-Python.git
+    ssh_url: git@github.com:mrlesmithjr/vSphere-Python.git
+    user: mrlesmithjr
+  - name: phpipam
+    full_name: phpipam/phpipam
+    git_url: git://github.com/phpipam/phpipam.git
+    ssh_url: git@github.com:phpipam/phpipam.git
+    user: phpipam
+  - name: phpipam-agent
+    full_name: phpipam/phpipam-agent
+    git_url: git://github.com/phpipam/phpipam-agent.git
+    ssh_url: git@github.com:phpipam/phpipam-agent.git
+    user: phpipam
