@@ -1,0 +1,1589 @@
+---
+github_repo_root: ../GitHub
+repos_file: vars/git_repos.yml
+github_repos:
+  - name: ansible-role-cis
+    full_name: bunchc/ansible-role-cis
+    git_url: git://github.com/bunchc/ansible-role-cis.git
+    ssh_url: git@github.com:bunchc/ansible-role-cis.git
+    user: bunchc
+  - name: ansible-role-stig
+    full_name: bunchc/ansible-role-stig
+    git_url: git://github.com/bunchc/ansible-role-stig.git
+    ssh_url: git@github.com:bunchc/ansible-role-stig.git
+    user: bunchc
+  - name: base-hardening-formula
+    full_name: bunchc/base-hardening-formula
+    git_url: git://github.com/bunchc/base-hardening-formula.git
+    ssh_url: git@github.com:bunchc/base-hardening-formula.git
+    user: bunchc
+  - name: blog
+    full_name: bunchc/blog
+    git_url: git://github.com/bunchc/blog.git
+    ssh_url: git@github.com:bunchc/blog.git
+    user: bunchc
+  - name: C2OS-Reboot
+    full_name: bunchc/C2OS-Reboot
+    git_url: git://github.com/bunchc/C2OS-Reboot.git
+    ssh_url: git@github.com:bunchc/C2OS-Reboot.git
+    user: bunchc
+  - name: cells
+    full_name: bunchc/cells
+    git_url: git://github.com/bunchc/cells.git
+    ssh_url: git@github.com:bunchc/cells.git
+    user: bunchc
+  - name: ClusterBuilder
+    full_name: bunchc/ClusterBuilder
+    git_url: git://github.com/bunchc/ClusterBuilder.git
+    ssh_url: git@github.com:bunchc/ClusterBuilder.git
+    user: bunchc
+  - name: Cookbook_Razor_Chef
+    full_name: bunchc/Cookbook_Razor_Chef
+    git_url: git://github.com/bunchc/Cookbook_Razor_Chef.git
+    ssh_url: git@github.com:bunchc/Cookbook_Razor_Chef.git
+    user: bunchc
+  - name: Cookbook_Sensu
+    full_name: bunchc/Cookbook_Sensu
+    git_url: git://github.com/bunchc/Cookbook_Sensu.git
+    ssh_url: git@github.com:bunchc/Cookbook_Sensu.git
+    user: bunchc
+  - name: Couch_to_OpenStack
+    full_name: bunchc/Couch_to_OpenStack
+    git_url: git://github.com/bunchc/Couch_to_OpenStack.git
+    ssh_url: git@github.com:bunchc/Couch_to_OpenStack.git
+    user: bunchc
+  - name: design-summit
+    full_name: bunchc/design-summit
+    git_url: git://github.com/bunchc/design-summit.git
+    ssh_url: git@github.com:bunchc/design-summit.git
+    user: bunchc
+  - name: devstack-cells
+    full_name: bunchc/devstack-cells
+    git_url: git://github.com/bunchc/devstack-cells.git
+    ssh_url: git@github.com:bunchc/devstack-cells.git
+    user: bunchc
+  - name: devstack_hands_on
+    full_name: bunchc/devstack_hands_on
+    git_url: git://github.com/bunchc/devstack_hands_on.git
+    ssh_url: git@github.com:bunchc/devstack_hands_on.git
+    user: bunchc
+  - name: djbdns
+    full_name: bunchc/djbdns
+    git_url: git://github.com/bunchc/djbdns.git
+    ssh_url: git@github.com:bunchc/djbdns.git
+    user: bunchc
+  - name: fail2ban-formula
+    full_name: bunchc/fail2ban-formula
+    git_url: git://github.com/bunchc/fail2ban-formula.git
+    ssh_url: git@github.com:bunchc/fail2ban-formula.git
+    user: bunchc
+  - name: Hanlon
+    full_name: bunchc/Hanlon
+    git_url: git://github.com/bunchc/Hanlon.git
+    ssh_url: git@github.com:bunchc/Hanlon.git
+    user: bunchc
+  - name: homework_checker
+    full_name: bunchc/homework_checker
+    git_url: git://github.com/bunchc/homework_checker.git
+    ssh_url: git@github.com:bunchc/homework_checker.git
+    user: bunchc
+  - name: incubator
+    full_name: bunchc/incubator
+    git_url: git://github.com/bunchc/incubator.git
+    ssh_url: git@github.com:bunchc/incubator.git
+    user: bunchc
+  - name: lanyon
+    full_name: bunchc/lanyon
+    git_url: git://github.com/bunchc/lanyon.git
+    ssh_url: git@github.com:bunchc/lanyon.git
+    user: bunchc
+  - name: Local_RPCS
+    full_name: bunchc/Local_RPCS
+    git_url: git://github.com/bunchc/Local_RPCS.git
+    ssh_url: git@github.com:bunchc/Local_RPCS.git
+    user: bunchc
+  - name: mariadb-galera-vagrant
+    full_name: bunchc/mariadb-galera-vagrant
+    git_url: git://github.com/bunchc/mariadb-galera-vagrant.git
+    ssh_url: git@github.com:bunchc/mariadb-galera-vagrant.git
+    user: bunchc
+  - name: mongodb-formula
+    full_name: bunchc/mongodb-formula
+    git_url: git://github.com/bunchc/mongodb-formula.git
+    ssh_url: git@github.com:bunchc/mongodb-formula.git
+    user: bunchc
+  - name: MS_Journal
+    full_name: bunchc/MS_Journal
+    git_url: git://github.com/bunchc/MS_Journal.git
+    ssh_url: git@github.com:bunchc/MS_Journal.git
+    user: bunchc
+  - name: OpenDaylightLab
+    full_name: bunchc/OpenDaylightLab
+    git_url: git://github.com/bunchc/OpenDaylightLab.git
+    ssh_url: git@github.com:bunchc/OpenDaylightLab.git
+    user: bunchc
+  - name: openstack-ansible
+    full_name: bunchc/openstack-ansible
+    git_url: git://github.com/bunchc/openstack-ansible.git
+    ssh_url: git@github.com:bunchc/openstack-ansible.git
+    user: bunchc
+  - name: openstack-ansible-security
+    full_name: bunchc/openstack-ansible-security
+    git_url: git://github.com/bunchc/openstack-ansible-security.git
+    ssh_url: git@github.com:bunchc/openstack-ansible-security.git
+    user: bunchc
+  - name: OpenStackCookbook
+    full_name: bunchc/OpenStackCookbook
+    git_url: git://github.com/bunchc/OpenStackCookbook.git
+    ssh_url: git@github.com:bunchc/OpenStackCookbook.git
+    user: bunchc
+  - name: OpenStackPerformanceCookbook
+    full_name: bunchc/OpenStackPerformanceCookbook
+    git_url: git://github.com/bunchc/OpenStackPerformanceCookbook.git
+    ssh_url: git@github.com:bunchc/OpenStackPerformanceCookbook.git
+    user: bunchc
+  - name: packer-kali
+    full_name: bunchc/packer-kali
+    git_url: git://github.com/bunchc/packer-kali.git
+    ssh_url: git@github.com:bunchc/packer-kali.git
+    user: bunchc
+  - name: proxy
+    full_name: bunchc/proxy
+    git_url: git://github.com/bunchc/proxy.git
+    ssh_url: git@github.com:bunchc/proxy.git
+    user: bunchc
+  - name: puppetlabs-grizzly
+    full_name: bunchc/puppetlabs-grizzly
+    git_url: git://github.com/bunchc/puppetlabs-grizzly.git
+    ssh_url: git@github.com:bunchc/puppetlabs-grizzly.git
+    user: bunchc
+  - name: PyContest
+    full_name: bunchc/PyContest
+    git_url: git://github.com/bunchc/PyContest.git
+    ssh_url: git@github.com:bunchc/PyContest.git
+    user: bunchc
+  - name: Razor
+    full_name: bunchc/Razor
+    git_url: git://github.com/bunchc/Razor.git
+    ssh_url: git@github.com:bunchc/Razor.git
+    user: bunchc
+  - name: razor-1
+    full_name: bunchc/razor-1
+    git_url: git://github.com/bunchc/razor-1.git
+    ssh_url: git@github.com:bunchc/razor-1.git
+    user: bunchc
+  - name: razor-server
+    full_name: bunchc/razor-server
+    git_url: git://github.com/bunchc/razor-server.git
+    ssh_url: git@github.com:bunchc/razor-server.git
+    user: bunchc
+  - name: razor-server-vagrant
+    full_name: bunchc/razor-server-vagrant
+    git_url: git://github.com/bunchc/razor-server-vagrant.git
+    ssh_url: git@github.com:bunchc/razor-server-vagrant.git
+    user: bunchc
+  - name: read_temps
+    full_name: bunchc/read_temps
+    git_url: git://github.com/bunchc/read_temps.git
+    ssh_url: git@github.com:bunchc/read_temps.git
+    user: bunchc
+  - name: reddit-in-sinatra
+    full_name: bunchc/reddit-in-sinatra
+    git_url: git://github.com/bunchc/reddit-in-sinatra.git
+    ssh_url: git@github.com:bunchc/reddit-in-sinatra.git
+    user: bunchc
+  - name: reddit_wallpaper_downloader
+    full_name: bunchc/reddit_wallpaper_downloader
+    git_url: git://github.com/bunchc/reddit_wallpaper_downloader.git
+    ssh_url: git@github.com:bunchc/reddit_wallpaper_downloader.git
+    user: bunchc
+  - name: RPC-Heat-Drupal
+    full_name: bunchc/RPC-Heat-Drupal
+    git_url: git://github.com/bunchc/RPC-Heat-Drupal.git
+    ssh_url: git@github.com:bunchc/RPC-Heat-Drupal.git
+    user: bunchc
+  - name: RPC-Heat-ELK
+    full_name: bunchc/RPC-Heat-ELK
+    git_url: git://github.com/bunchc/RPC-Heat-ELK.git
+    ssh_url: git@github.com:bunchc/RPC-Heat-ELK.git
+    user: bunchc
+  - name: RPC-Heat-Gitlab
+    full_name: bunchc/RPC-Heat-Gitlab
+    git_url: git://github.com/bunchc/RPC-Heat-Gitlab.git
+    ssh_url: git@github.com:bunchc/RPC-Heat-Gitlab.git
+    user: bunchc
+  - name: RPC-Heat-HDP
+    full_name: bunchc/RPC-Heat-HDP
+    git_url: git://github.com/bunchc/RPC-Heat-HDP.git
+    ssh_url: git@github.com:bunchc/RPC-Heat-HDP.git
+    user: bunchc
+  - name: RPC-Heat-Magento
+    full_name: bunchc/RPC-Heat-Magento
+    git_url: git://github.com/bunchc/RPC-Heat-Magento.git
+    ssh_url: git@github.com:bunchc/RPC-Heat-Magento.git
+    user: bunchc
+  - name: RPC-Heat-MongoDB
+    full_name: bunchc/RPC-Heat-MongoDB
+    git_url: git://github.com/bunchc/RPC-Heat-MongoDB.git
+    ssh_url: git@github.com:bunchc/RPC-Heat-MongoDB.git
+    user: bunchc
+  - name: salty-things
+    full_name: bunchc/salty-things
+    git_url: git://github.com/bunchc/salty-things.git
+    ssh_url: git@github.com:bunchc/salty-things.git
+    user: bunchc
+  - name: secureserver
+    full_name: bunchc/secureserver
+    git_url: git://github.com/bunchc/secureserver.git
+    ssh_url: git@github.com:bunchc/secureserver.git
+    user: bunchc
+  - name: summit_hands_on
+    full_name: bunchc/summit_hands_on
+    git_url: git://github.com/bunchc/summit_hands_on.git
+    ssh_url: git@github.com:bunchc/summit_hands_on.git
+    user: bunchc
+  - name: vagrant-hanlon
+    full_name: bunchc/vagrant-hanlon
+    git_url: git://github.com/bunchc/vagrant-hanlon.git
+    ssh_url: git@github.com:bunchc/vagrant-hanlon.git
+    user: bunchc
+  - name: vagrant-hostmanager
+    full_name: bunchc/vagrant-hostmanager
+    git_url: git://github.com/bunchc/vagrant-hostmanager.git
+    ssh_url: git@github.com:bunchc/vagrant-hostmanager.git
+    user: bunchc
+  - name: vagrant-nyancat
+    full_name: bunchc/vagrant-nyancat
+    git_url: git://github.com/bunchc/vagrant-nyancat.git
+    ssh_url: git@github.com:bunchc/vagrant-nyancat.git
+    user: bunchc
+  - name: vagrant-rackspace
+    full_name: bunchc/vagrant-rackspace
+    git_url: git://github.com/bunchc/vagrant-rackspace.git
+    ssh_url: git@github.com:bunchc/vagrant-rackspace.git
+    user: bunchc
+  - name: vagrant-zerovm
+    full_name: bunchc/vagrant-zerovm
+    git_url: git://github.com/bunchc/vagrant-zerovm.git
+    ssh_url: git@github.com:bunchc/vagrant-zerovm.git
+    user: bunchc
+  - name: vagrantfiles-rpc
+    full_name: bunchc/vagrantfiles-rpc
+    git_url: git://github.com/bunchc/vagrantfiles-rpc.git
+    ssh_url: git@github.com:bunchc/vagrantfiles-rpc.git
+    user: bunchc
+  - name: Vagrant_OpenStack_Puppet
+    full_name: bunchc/Vagrant_OpenStack_Puppet
+    git_url: git://github.com/bunchc/Vagrant_OpenStack_Puppet.git
+    ssh_url: git@github.com:bunchc/Vagrant_OpenStack_Puppet.git
+    user: bunchc
+  - name: zerocloud
+    full_name: bunchc/zerocloud
+    git_url: git://github.com/bunchc/zerocloud.git
+    ssh_url: git@github.com:bunchc/zerocloud.git
+    user: bunchc
+  - name: zerovm-docs
+    full_name: bunchc/zerovm-docs
+    git_url: git://github.com/bunchc/zerovm-docs.git
+    ssh_url: git@github.com:bunchc/zerovm-docs.git
+    user: bunchc
+  - name: acme-tiny
+    full_name: debops/acme-tiny
+    git_url: git://github.com/debops/acme-tiny.git
+    ssh_url: git@github.com:debops/acme-tiny.git
+    user: debops
+  - name: ansible-apt
+    full_name: debops/ansible-apt
+    git_url: git://github.com/debops/ansible-apt.git
+    ssh_url: git@github.com:debops/ansible-apt.git
+    user: debops
+  - name: ansible-apt_preferences
+    full_name: debops/ansible-apt_preferences
+    git_url: git://github.com/debops/ansible-apt_preferences.git
+    ssh_url: git@github.com:debops/ansible-apt_preferences.git
+    user: debops
+  - name: ansible-atd
+    full_name: debops/ansible-atd
+    git_url: git://github.com/debops/ansible-atd.git
+    ssh_url: git@github.com:debops/ansible-atd.git
+    user: debops
+  - name: ansible-auth
+    full_name: debops/ansible-auth
+    git_url: git://github.com/debops/ansible-auth.git
+    ssh_url: git@github.com:debops/ansible-auth.git
+    user: debops
+  - name: ansible-backporter
+    full_name: debops/ansible-backporter
+    git_url: git://github.com/debops/ansible-backporter.git
+    ssh_url: git@github.com:debops/ansible-backporter.git
+    user: debops
+  - name: ansible-bootstrap
+    full_name: debops/ansible-bootstrap
+    git_url: git://github.com/debops/ansible-bootstrap.git
+    ssh_url: git@github.com:debops/ansible-bootstrap.git
+    user: debops
+  - name: ansible-boxbackup
+    full_name: debops/ansible-boxbackup
+    git_url: git://github.com/debops/ansible-boxbackup.git
+    ssh_url: git@github.com:debops/ansible-boxbackup.git
+    user: debops
+  - name: ansible-console
+    full_name: debops/ansible-console
+    git_url: git://github.com/debops/ansible-console.git
+    ssh_url: git@github.com:debops/ansible-console.git
+    user: debops
+  - name: ansible-core
+    full_name: debops/ansible-core
+    git_url: git://github.com/debops/ansible-core.git
+    ssh_url: git@github.com:debops/ansible-core.git
+    user: debops
+  - name: ansible-cryptsetup
+    full_name: debops/ansible-cryptsetup
+    git_url: git://github.com/debops/ansible-cryptsetup.git
+    ssh_url: git@github.com:debops/ansible-cryptsetup.git
+    user: debops
+  - name: ansible-debops
+    full_name: debops/ansible-debops
+    git_url: git://github.com/debops/ansible-debops.git
+    ssh_url: git@github.com:debops/ansible-debops.git
+    user: debops
+  - name: ansible-debug
+    full_name: debops/ansible-debug
+    git_url: git://github.com/debops/ansible-debug.git
+    ssh_url: git@github.com:debops/ansible-debug.git
+    user: debops
+  - name: ansible-dhcpd
+    full_name: debops/ansible-dhcpd
+    git_url: git://github.com/debops/ansible-dhcpd.git
+    ssh_url: git@github.com:debops/ansible-dhcpd.git
+    user: debops
+  - name: ansible-dhparam
+    full_name: debops/ansible-dhparam
+    git_url: git://github.com/debops/ansible-dhparam.git
+    ssh_url: git@github.com:debops/ansible-dhparam.git
+    user: debops
+  - name: ansible-directories
+    full_name: debops/ansible-directories
+    git_url: git://github.com/debops/ansible-directories.git
+    ssh_url: git@github.com:debops/ansible-directories.git
+    user: debops
+  - name: ansible-dnsmasq
+    full_name: debops/ansible-dnsmasq
+    git_url: git://github.com/debops/ansible-dnsmasq.git
+    ssh_url: git@github.com:debops/ansible-dnsmasq.git
+    user: debops
+  - name: ansible-docker
+    full_name: debops/ansible-docker
+    git_url: git://github.com/debops/ansible-docker.git
+    ssh_url: git@github.com:debops/ansible-docker.git
+    user: debops
+  - name: ansible-docker_gen
+    full_name: debops/ansible-docker_gen
+    git_url: git://github.com/debops/ansible-docker_gen.git
+    ssh_url: git@github.com:debops/ansible-docker_gen.git
+    user: debops
+  - name: ansible-dokuwiki
+    full_name: debops/ansible-dokuwiki
+    git_url: git://github.com/debops/ansible-dokuwiki.git
+    ssh_url: git@github.com:debops/ansible-dokuwiki.git
+    user: debops
+  - name: ansible-dovecot
+    full_name: debops/ansible-dovecot
+    git_url: git://github.com/debops/ansible-dovecot.git
+    ssh_url: git@github.com:debops/ansible-dovecot.git
+    user: debops
+  - name: ansible-elasticsearch
+    full_name: debops/ansible-elasticsearch
+    git_url: git://github.com/debops/ansible-elasticsearch.git
+    ssh_url: git@github.com:debops/ansible-elasticsearch.git
+    user: debops
+  - name: ansible-encfs
+    full_name: debops/ansible-encfs
+    git_url: git://github.com/debops/ansible-encfs.git
+    ssh_url: git@github.com:debops/ansible-encfs.git
+    user: debops
+  - name: ansible-etc_services
+    full_name: debops/ansible-etc_services
+    git_url: git://github.com/debops/ansible-etc_services.git
+    ssh_url: git@github.com:debops/ansible-etc_services.git
+    user: debops
+  - name: ansible-etherpad
+    full_name: debops/ansible-etherpad
+    git_url: git://github.com/debops/ansible-etherpad.git
+    ssh_url: git@github.com:debops/ansible-etherpad.git
+    user: debops
+  - name: ansible-fail2ban
+    full_name: debops/ansible-fail2ban
+    git_url: git://github.com/debops/ansible-fail2ban.git
+    ssh_url: git@github.com:debops/ansible-fail2ban.git
+    user: debops
+  - name: ansible-fcgiwrap
+    full_name: debops/ansible-fcgiwrap
+    git_url: git://github.com/debops/ansible-fcgiwrap.git
+    ssh_url: git@github.com:debops/ansible-fcgiwrap.git
+    user: debops
+  - name: ansible-ferm
+    full_name: debops/ansible-ferm
+    git_url: git://github.com/debops/ansible-ferm.git
+    ssh_url: git@github.com:debops/ansible-ferm.git
+    user: debops
+  - name: ansible-gitlab
+    full_name: debops/ansible-gitlab
+    git_url: git://github.com/debops/ansible-gitlab.git
+    ssh_url: git@github.com:debops/ansible-gitlab.git
+    user: debops
+  - name: ansible-gitlab_ci
+    full_name: debops/ansible-gitlab_ci
+    git_url: git://github.com/debops/ansible-gitlab_ci.git
+    ssh_url: git@github.com:debops/ansible-gitlab_ci.git
+    user: debops
+  - name: ansible-gitlab_ci_runner
+    full_name: debops/ansible-gitlab_ci_runner
+    git_url: git://github.com/debops/ansible-gitlab_ci_runner.git
+    ssh_url: git@github.com:debops/ansible-gitlab_ci_runner.git
+    user: debops
+  - name: ansible-gitusers
+    full_name: debops/ansible-gitusers
+    git_url: git://github.com/debops/ansible-gitusers.git
+    ssh_url: git@github.com:debops/ansible-gitusers.git
+    user: debops
+  - name: ansible-golang
+    full_name: debops/ansible-golang
+    git_url: git://github.com/debops/ansible-golang.git
+    ssh_url: git@github.com:debops/ansible-golang.git
+    user: debops
+  - name: ansible-grub
+    full_name: debops/ansible-grub
+    git_url: git://github.com/debops/ansible-grub.git
+    ssh_url: git@github.com:debops/ansible-grub.git
+    user: debops
+  - name: ansible-hwraid
+    full_name: debops/ansible-hwraid
+    git_url: git://github.com/debops/ansible-hwraid.git
+    ssh_url: git@github.com:debops/ansible-hwraid.git
+    user: debops
+  - name: ansible-ifupdown
+    full_name: debops/ansible-ifupdown
+    git_url: git://github.com/debops/ansible-ifupdown.git
+    ssh_url: git@github.com:debops/ansible-ifupdown.git
+    user: debops
+  - name: ansible-ipxe
+    full_name: debops/ansible-ipxe
+    git_url: git://github.com/debops/ansible-ipxe.git
+    ssh_url: git@github.com:debops/ansible-ipxe.git
+    user: debops
+  - name: ansible-iscsi
+    full_name: debops/ansible-iscsi
+    git_url: git://github.com/debops/ansible-iscsi.git
+    ssh_url: git@github.com:debops/ansible-iscsi.git
+    user: debops
+  - name: ansible-java
+    full_name: debops/ansible-java
+    git_url: git://github.com/debops/ansible-java.git
+    ssh_url: git@github.com:debops/ansible-java.git
+    user: debops
+  - name: ansible-kvm
+    full_name: debops/ansible-kvm
+    git_url: git://github.com/debops/ansible-kvm.git
+    ssh_url: git@github.com:debops/ansible-kvm.git
+    user: debops
+  - name: ansible-librenms
+    full_name: debops/ansible-librenms
+    git_url: git://github.com/debops/ansible-librenms.git
+    ssh_url: git@github.com:debops/ansible-librenms.git
+    user: debops
+  - name: ansible-libvirt
+    full_name: debops/ansible-libvirt
+    git_url: git://github.com/debops/ansible-libvirt.git
+    ssh_url: git@github.com:debops/ansible-libvirt.git
+    user: debops
+  - name: ansible-libvirtd
+    full_name: debops/ansible-libvirtd
+    git_url: git://github.com/debops/ansible-libvirtd.git
+    ssh_url: git@github.com:debops/ansible-libvirtd.git
+    user: debops
+  - name: ansible-lvm
+    full_name: debops/ansible-lvm
+    git_url: git://github.com/debops/ansible-lvm.git
+    ssh_url: git@github.com:debops/ansible-lvm.git
+    user: debops
+  - name: ansible-lxc
+    full_name: debops/ansible-lxc
+    git_url: git://github.com/debops/ansible-lxc.git
+    ssh_url: git@github.com:debops/ansible-lxc.git
+    user: debops
+  - name: ansible-mailman
+    full_name: debops/ansible-mailman
+    git_url: git://github.com/debops/ansible-mailman.git
+    ssh_url: git@github.com:debops/ansible-mailman.git
+    user: debops
+  - name: ansible-mariadb
+    full_name: debops/ansible-mariadb
+    git_url: git://github.com/debops/ansible-mariadb.git
+    ssh_url: git@github.com:debops/ansible-mariadb.git
+    user: debops
+  - name: ansible-mariadb_server
+    full_name: debops/ansible-mariadb_server
+    git_url: git://github.com/debops/ansible-mariadb_server.git
+    ssh_url: git@github.com:debops/ansible-mariadb_server.git
+    user: debops
+  - name: ansible-memcached
+    full_name: debops/ansible-memcached
+    git_url: git://github.com/debops/ansible-memcached.git
+    ssh_url: git@github.com:debops/ansible-memcached.git
+    user: debops
+  - name: ansible-monit
+    full_name: debops/ansible-monit
+    git_url: git://github.com/debops/ansible-monit.git
+    ssh_url: git@github.com:debops/ansible-monit.git
+    user: debops
+  - name: ansible-monkeysphere
+    full_name: debops/ansible-monkeysphere
+    git_url: git://github.com/debops/ansible-monkeysphere.git
+    ssh_url: git@github.com:debops/ansible-monkeysphere.git
+    user: debops
+  - name: ansible-mysql
+    full_name: debops/ansible-mysql
+    git_url: git://github.com/debops/ansible-mysql.git
+    ssh_url: git@github.com:debops/ansible-mysql.git
+    user: debops
+  - name: ansible-nat
+    full_name: debops/ansible-nat
+    git_url: git://github.com/debops/ansible-nat.git
+    ssh_url: git@github.com:debops/ansible-nat.git
+    user: debops
+  - name: ansible-nfs
+    full_name: debops/ansible-nfs
+    git_url: git://github.com/debops/ansible-nfs.git
+    ssh_url: git@github.com:debops/ansible-nfs.git
+    user: debops
+  - name: ansible-nginx
+    full_name: debops/ansible-nginx
+    git_url: git://github.com/debops/ansible-nginx.git
+    ssh_url: git@github.com:debops/ansible-nginx.git
+    user: debops
+  - name: ansible-nodejs
+    full_name: debops/ansible-nodejs
+    git_url: git://github.com/debops/ansible-nodejs.git
+    ssh_url: git@github.com:debops/ansible-nodejs.git
+    user: debops
+  - name: ansible-ntp
+    full_name: debops/ansible-ntp
+    git_url: git://github.com/debops/ansible-ntp.git
+    ssh_url: git@github.com:debops/ansible-ntp.git
+    user: debops
+  - name: ansible-openvz
+    full_name: debops/ansible-openvz
+    git_url: git://github.com/debops/ansible-openvz.git
+    ssh_url: git@github.com:debops/ansible-openvz.git
+    user: debops
+  - name: ansible-owncloud
+    full_name: debops/ansible-owncloud
+    git_url: git://github.com/debops/ansible-owncloud.git
+    ssh_url: git@github.com:debops/ansible-owncloud.git
+    user: debops
+  - name: ansible-php5
+    full_name: debops/ansible-php5
+    git_url: git://github.com/debops/ansible-php5.git
+    ssh_url: git@github.com:debops/ansible-php5.git
+    user: debops
+  - name: ansible-phpipam
+    full_name: debops/ansible-phpipam
+    git_url: git://github.com/debops/ansible-phpipam.git
+    ssh_url: git@github.com:debops/ansible-phpipam.git
+    user: debops
+  - name: ansible-phpmyadmin
+    full_name: debops/ansible-phpmyadmin
+    git_url: git://github.com/debops/ansible-phpmyadmin.git
+    ssh_url: git@github.com:debops/ansible-phpmyadmin.git
+    user: debops
+  - name: ansible-pki
+    full_name: debops/ansible-pki
+    git_url: git://github.com/debops/ansible-pki.git
+    ssh_url: git@github.com:debops/ansible-pki.git
+    user: debops
+  - name: ansible-postfix
+    full_name: debops/ansible-postfix
+    git_url: git://github.com/debops/ansible-postfix.git
+    ssh_url: git@github.com:debops/ansible-postfix.git
+    user: debops
+  - name: ansible-postgresql
+    full_name: debops/ansible-postgresql
+    git_url: git://github.com/debops/ansible-postgresql.git
+    ssh_url: git@github.com:debops/ansible-postgresql.git
+    user: debops
+  - name: ansible-postgresql_server
+    full_name: debops/ansible-postgresql_server
+    git_url: git://github.com/debops/ansible-postgresql_server.git
+    ssh_url: git@github.com:debops/ansible-postgresql_server.git
+    user: debops
+  - name: ansible-preseed
+    full_name: debops/ansible-preseed
+    git_url: git://github.com/debops/ansible-preseed.git
+    ssh_url: git@github.com:debops/ansible-preseed.git
+    user: debops
+  - name: ansible-radvd
+    full_name: debops/ansible-radvd
+    git_url: git://github.com/debops/ansible-radvd.git
+    ssh_url: git@github.com:debops/ansible-radvd.git
+    user: debops
+  - name: ansible-rails_deploy
+    full_name: debops/ansible-rails_deploy
+    git_url: git://github.com/debops/ansible-rails_deploy.git
+    ssh_url: git@github.com:debops/ansible-rails_deploy.git
+    user: debops
+  - name: ansible-redis
+    full_name: debops/ansible-redis
+    git_url: git://github.com/debops/ansible-redis.git
+    ssh_url: git@github.com:debops/ansible-redis.git
+    user: debops
+  - name: ansible-reprepro
+    full_name: debops/ansible-reprepro
+    git_url: git://github.com/debops/ansible-reprepro.git
+    ssh_url: git@github.com:debops/ansible-reprepro.git
+    user: debops
+  - name: ansible-role-ansible
+    full_name: debops/ansible-role-ansible
+    git_url: git://github.com/debops/ansible-role-ansible.git
+    ssh_url: git@github.com:debops/ansible-role-ansible.git
+    user: debops
+  - name: ansible-rsnapshot
+    full_name: debops/ansible-rsnapshot
+    git_url: git://github.com/debops/ansible-rsnapshot.git
+    ssh_url: git@github.com:debops/ansible-rsnapshot.git
+    user: debops
+  - name: ansible-rstudio_server
+    full_name: debops/ansible-rstudio_server
+    git_url: git://github.com/debops/ansible-rstudio_server.git
+    ssh_url: git@github.com:debops/ansible-rstudio_server.git
+    user: debops
+  - name: ansible-rsyslog
+    full_name: debops/ansible-rsyslog
+    git_url: git://github.com/debops/ansible-rsyslog.git
+    ssh_url: git@github.com:debops/ansible-rsyslog.git
+    user: debops
+  - name: ansible-ruby
+    full_name: debops/ansible-ruby
+    git_url: git://github.com/debops/ansible-ruby.git
+    ssh_url: git@github.com:debops/ansible-ruby.git
+    user: debops
+  - name: ansible-safekeep
+    full_name: debops/ansible-safekeep
+    git_url: git://github.com/debops/ansible-safekeep.git
+    ssh_url: git@github.com:debops/ansible-safekeep.git
+    user: debops
+  - name: ansible-salt
+    full_name: debops/ansible-salt
+    git_url: git://github.com/debops/ansible-salt.git
+    ssh_url: git@github.com:debops/ansible-salt.git
+    user: debops
+  - name: ansible-samba
+    full_name: debops/ansible-samba
+    git_url: git://github.com/debops/ansible-samba.git
+    ssh_url: git@github.com:debops/ansible-samba.git
+    user: debops
+  - name: ansible-secret
+    full_name: debops/ansible-secret
+    git_url: git://github.com/debops/ansible-secret.git
+    ssh_url: git@github.com:debops/ansible-secret.git
+    user: debops
+  - name: ansible-sftpusers
+    full_name: debops/ansible-sftpusers
+    git_url: git://github.com/debops/ansible-sftpusers.git
+    ssh_url: git@github.com:debops/ansible-sftpusers.git
+    user: debops
+  - name: ansible-sks
+    full_name: debops/ansible-sks
+    git_url: git://github.com/debops/ansible-sks.git
+    ssh_url: git@github.com:debops/ansible-sks.git
+    user: debops
+  - name: ansible-slapd
+    full_name: debops/ansible-slapd
+    git_url: git://github.com/debops/ansible-slapd.git
+    ssh_url: git@github.com:debops/ansible-slapd.git
+    user: debops
+  - name: ansible-smstools
+    full_name: debops/ansible-smstools
+    git_url: git://github.com/debops/ansible-smstools.git
+    ssh_url: git@github.com:debops/ansible-smstools.git
+    user: debops
+  - name: ansible-snmpd
+    full_name: debops/ansible-snmpd
+    git_url: git://github.com/debops/ansible-snmpd.git
+    ssh_url: git@github.com:debops/ansible-snmpd.git
+    user: debops
+  - name: ansible-sshd
+    full_name: debops/ansible-sshd
+    git_url: git://github.com/debops/ansible-sshd.git
+    ssh_url: git@github.com:debops/ansible-sshd.git
+    user: debops
+  - name: ansible-sshkeys
+    full_name: debops/ansible-sshkeys
+    git_url: git://github.com/debops/ansible-sshkeys.git
+    ssh_url: git@github.com:debops/ansible-sshkeys.git
+    user: debops
+  - name: ansible-stunnel
+    full_name: debops/ansible-stunnel
+    git_url: git://github.com/debops/ansible-stunnel.git
+    ssh_url: git@github.com:debops/ansible-stunnel.git
+    user: debops
+  - name: ansible-subnetwork
+    full_name: debops/ansible-subnetwork
+    git_url: git://github.com/debops/ansible-subnetwork.git
+    ssh_url: git@github.com:debops/ansible-subnetwork.git
+    user: debops
+  - name: ansible-swapfile
+    full_name: debops/ansible-swapfile
+    git_url: git://github.com/debops/ansible-swapfile.git
+    ssh_url: git@github.com:debops/ansible-swapfile.git
+    user: debops
+  - name: ansible-tcpwrappers
+    full_name: debops/ansible-tcpwrappers
+    git_url: git://github.com/debops/ansible-tcpwrappers.git
+    ssh_url: git@github.com:debops/ansible-tcpwrappers.git
+    user: debops
+  - name: ansible-tftpd
+    full_name: debops/ansible-tftpd
+    git_url: git://github.com/debops/ansible-tftpd.git
+    ssh_url: git@github.com:debops/ansible-tftpd.git
+    user: debops
+  - name: ansible-tgt
+    full_name: debops/ansible-tgt
+    git_url: git://github.com/debops/ansible-tgt.git
+    ssh_url: git@github.com:debops/ansible-tgt.git
+    user: debops
+  - name: ansible-tinc
+    full_name: debops/ansible-tinc
+    git_url: git://github.com/debops/ansible-tinc.git
+    ssh_url: git@github.com:debops/ansible-tinc.git
+    user: debops
+  - name: ansible-users
+    full_name: debops/ansible-users
+    git_url: git://github.com/debops/ansible-users.git
+    ssh_url: git@github.com:debops/ansible-users.git
+    user: debops
+  - name: changelog
+    full_name: debops/changelog
+    git_url: git://github.com/debops/changelog.git
+    ssh_url: git@github.com:debops/changelog.git
+    user: debops
+  - name: debops
+    full_name: debops/debops
+    git_url: git://github.com/debops/debops.git
+    ssh_url: git@github.com:debops/debops.git
+    user: debops
+  - name: debops-playbooks
+    full_name: debops/debops-playbooks
+    git_url: git://github.com/debops/debops-playbooks.git
+    ssh_url: git@github.com:debops/debops-playbooks.git
+    user: debops
+  - name: debops.github.io
+    full_name: debops/debops.github.io
+    git_url: git://github.com/debops/debops.github.io.git
+    ssh_url: git@github.com:debops/debops.github.io.git
+    user: debops
+  - name: docs
+    full_name: debops/docs
+    git_url: git://github.com/debops/docs.git
+    ssh_url: git@github.com:debops/docs.git
+    user: debops
+  - name: 2015-belgium-vmug
+    full_name: lowescott/2015-belgium-vmug
+    git_url: git://github.com/lowescott/2015-belgium-vmug.git
+    ssh_url: git@github.com:lowescott/2015-belgium-vmug.git
+    user: lowescott
+  - name: 2015-vbrownbag-docker
+    full_name: lowescott/2015-vbrownbag-docker
+    git_url: git://github.com/lowescott/2015-vbrownbag-docker.git
+    ssh_url: git@github.com:lowescott/2015-vbrownbag-docker.git
+    user: lowescott
+  - name: blog-hugo
+    full_name: lowescott/blog-hugo
+    git_url: git://github.com/lowescott/blog-hugo.git
+    ssh_url: git@github.com:lowescott/blog-hugo.git
+    user: lowescott
+  - name: l23network
+    full_name: lowescott/l23network
+    git_url: git://github.com/lowescott/l23network.git
+    ssh_url: git@github.com:lowescott/l23network.git
+    user: lowescott
+  - name: learning-tools
+    full_name: lowescott/learning-tools
+    git_url: git://github.com/lowescott/learning-tools.git
+    ssh_url: git@github.com:lowescott/learning-tools.git
+    user: lowescott
+  - name: lowescott.github.io
+    full_name: lowescott/lowescott.github.io
+    git_url: git://github.com/lowescott/lowescott.github.io.git
+    ssh_url: git@github.com:lowescott/lowescott.github.io.git
+    user: lowescott
+  - name: openstack-denver-meetup
+    full_name: lowescott/openstack-denver-meetup
+    git_url: git://github.com/lowescott/openstack-denver-meetup.git
+    ssh_url: git@github.com:lowescott/openstack-denver-meetup.git
+    user: lowescott
+  - name: openvswitch.github.io
+    full_name: lowescott/openvswitch.github.io
+    git_url: git://github.com/lowescott/openvswitch.github.io.git
+    ssh_url: git@github.com:lowescott/openvswitch.github.io.git
+    user: lowescott
+  - name: packer-templates
+    full_name: lowescott/packer-templates
+    git_url: git://github.com/lowescott/packer-templates.git
+    ssh_url: git@github.com:lowescott/packer-templates.git
+    user: lowescott
+  - name: swarm
+    full_name: lowescott/swarm
+    git_url: git://github.com/lowescott/swarm.git
+    ssh_url: git@github.com:lowescott/swarm.git
+    user: lowescott
+  - name: terraform
+    full_name: lowescott/terraform
+    git_url: git://github.com/lowescott/terraform.git
+    ssh_url: git@github.com:lowescott/terraform.git
+    user: lowescott
+  - name: advanced-twitter-search
+    full_name: Mierdin/advanced-twitter-search
+    git_url: git://github.com/Mierdin/advanced-twitter-search.git
+    ssh_url: git@github.com:Mierdin/advanced-twitter-search.git
+    user: Mierdin
+  - name: android-netmon
+    full_name: Mierdin/android-netmon
+    git_url: git://github.com/Mierdin/android-netmon.git
+    ssh_url: git@github.com:Mierdin/android-netmon.git
+    user: Mierdin
+  - name: ansible-autozone
+    full_name: Mierdin/ansible-autozone
+    git_url: git://github.com/Mierdin/ansible-autozone.git
+    ssh_url: git@github.com:Mierdin/ansible-autozone.git
+    user: Mierdin
+  - name: ansible-junos-stdlib
+    full_name: Mierdin/ansible-junos-stdlib
+    git_url: git://github.com/Mierdin/ansible-junos-stdlib.git
+    ssh_url: git@github.com:Mierdin/ansible-junos-stdlib.git
+    user: Mierdin
+  - name: ansible-nxapi
+    full_name: Mierdin/ansible-nxapi
+    git_url: git://github.com/Mierdin/ansible-nxapi.git
+    ssh_url: git@github.com:Mierdin/ansible-nxapi.git
+    user: Mierdin
+  - name: ansible-nxos-stdlib
+    full_name: Mierdin/ansible-nxos-stdlib
+    git_url: git://github.com/Mierdin/ansible-nxos-stdlib.git
+    ssh_url: git@github.com:Mierdin/ansible-nxos-stdlib.git
+    user: Mierdin
+  - name: ansible-role-dnsmasq
+    full_name: Mierdin/ansible-role-dnsmasq
+    git_url: git://github.com/Mierdin/ansible-role-dnsmasq.git
+    ssh_url: git@github.com:Mierdin/ansible-role-dnsmasq.git
+    user: Mierdin
+  - name: ansible-role-iscdhcp
+    full_name: Mierdin/ansible-role-iscdhcp
+    git_url: git://github.com/Mierdin/ansible-role-iscdhcp.git
+    ssh_url: git@github.com:Mierdin/ansible-role-iscdhcp.git
+    user: Mierdin
+  - name: ansible-role-quagga
+    full_name: Mierdin/ansible-role-quagga
+    git_url: git://github.com/Mierdin/ansible-role-quagga.git
+    ssh_url: git@github.com:Mierdin/ansible-role-quagga.git
+    user: Mierdin
+  - name: ansible-role-router
+    full_name: Mierdin/ansible-role-router
+    git_url: git://github.com/Mierdin/ansible-role-router.git
+    ssh_url: git@github.com:Mierdin/ansible-role-router.git
+    user: Mierdin
+  - name: ansible-switchconfig
+    full_name: Mierdin/ansible-switchconfig
+    git_url: git://github.com/Mierdin/ansible-switchconfig.git
+    ssh_url: git@github.com:Mierdin/ansible-switchconfig.git
+    user: Mierdin
+  - name: ansible-ucstools
+    full_name: Mierdin/ansible-ucstools
+    git_url: git://github.com/Mierdin/ansible-ucstools.git
+    ssh_url: git@github.com:Mierdin/ansible-ucstools.git
+    user: Mierdin
+  - name: BoutThatTrace
+    full_name: Mierdin/BoutThatTrace
+    git_url: git://github.com/Mierdin/BoutThatTrace.git
+    ssh_url: git@github.com:Mierdin/BoutThatTrace.git
+    user: Mierdin
+  - name: ci-networks
+    full_name: Mierdin/ci-networks
+    git_url: git://github.com/Mierdin/ci-networks.git
+    ssh_url: git@github.com:Mierdin/ci-networks.git
+    user: Mierdin
+  - name: comcasted
+    full_name: Mierdin/comcasted
+    git_url: git://github.com/Mierdin/comcasted.git
+    ssh_url: git@github.com:Mierdin/comcasted.git
+    user: Mierdin
+  - name: cpal
+    full_name: Mierdin/cpal
+    git_url: git://github.com/Mierdin/cpal.git
+    ssh_url: git@github.com:Mierdin/cpal.git
+    user: Mierdin
+  - name: cumulus-vx-vagrant
+    full_name: Mierdin/cumulus-vx-vagrant
+    git_url: git://github.com/Mierdin/cumulus-vx-vagrant.git
+    ssh_url: git@github.com:Mierdin/cumulus-vx-vagrant.git
+    user: Mierdin
+  - name: devstack
+    full_name: Mierdin/devstack
+    git_url: git://github.com/Mierdin/devstack.git
+    ssh_url: git@github.com:Mierdin/devstack.git
+    user: Mierdin
+  - name: devstack-odl
+    full_name: Mierdin/devstack-odl
+    git_url: git://github.com/Mierdin/devstack-odl.git
+    ssh_url: git@github.com:Mierdin/devstack-odl.git
+    user: Mierdin
+  - name: dotfiles
+    full_name: Mierdin/dotfiles
+    git_url: git://github.com/Mierdin/dotfiles.git
+    ssh_url: git@github.com:Mierdin/dotfiles.git
+    user: Mierdin
+  - name: FlexpodToolkit
+    full_name: Mierdin/FlexpodToolkit
+    git_url: git://github.com/Mierdin/FlexpodToolkit.git
+    ssh_url: git@github.com:Mierdin/FlexpodToolkit.git
+    user: Mierdin
+  - name: gitintro-test
+    full_name: Mierdin/gitintro-test
+    git_url: git://github.com/Mierdin/gitintro-test.git
+    ssh_url: git@github.com:Mierdin/gitintro-test.git
+    user: Mierdin
+  - name: intro-to-kubernetes-workshop
+    full_name: Mierdin/intro-to-kubernetes-workshop
+    git_url: git://github.com/Mierdin/intro-to-kubernetes-workshop.git
+    ssh_url: git@github.com:Mierdin/intro-to-kubernetes-workshop.git
+    user: Mierdin
+  - name: ipsla2
+    full_name: Mierdin/ipsla2
+    git_url: git://github.com/Mierdin/ipsla2.git
+    ssh_url: git@github.com:Mierdin/ipsla2.git
+    user: Mierdin
+  - name: jinja2-nxos-config
+    full_name: Mierdin/jinja2-nxos-config
+    git_url: git://github.com/Mierdin/jinja2-nxos-config.git
+    ssh_url: git@github.com:Mierdin/jinja2-nxos-config.git
+    user: Mierdin
+  - name: kube-instacluster
+    full_name: Mierdin/kube-instacluster
+    git_url: git://github.com/Mierdin/kube-instacluster.git
+    ssh_url: git@github.com:Mierdin/kube-instacluster.git
+    user: Mierdin
+  - name: mega-awesome
+    full_name: Mierdin/mega-awesome
+    git_url: git://github.com/Mierdin/mega-awesome.git
+    ssh_url: git@github.com:Mierdin/mega-awesome.git
+    user: Mierdin
+  - name: MegaAwesome
+    full_name: Mierdin/MegaAwesome
+    git_url: git://github.com/Mierdin/MegaAwesome.git
+    ssh_url: git@github.com:Mierdin/MegaAwesome.git
+    user: Mierdin
+  - name: mierdin.github.io
+    full_name: Mierdin/mierdin.github.io
+    git_url: git://github.com/Mierdin/mierdin.github.io.git
+    ssh_url: git@github.com:Mierdin/mierdin.github.io.git
+    user: Mierdin
+  - name: neutron
+    full_name: Mierdin/neutron
+    git_url: git://github.com/Mierdin/neutron.git
+    ssh_url: git@github.com:Mierdin/neutron.git
+    user: Mierdin
+  - name: nexus9000
+    full_name: Mierdin/nexus9000
+    git_url: git://github.com/Mierdin/nexus9000.git
+    ssh_url: git@github.com:Mierdin/nexus9000.git
+    user: Mierdin
+  - name: NoMoreCCIE
+    full_name: Mierdin/NoMoreCCIE
+    git_url: git://github.com/Mierdin/NoMoreCCIE.git
+    ssh_url: git@github.com:Mierdin/NoMoreCCIE.git
+    user: Mierdin
+  - name: nwkauto
+    full_name: Mierdin/nwkauto
+    git_url: git://github.com/Mierdin/nwkauto.git
+    ssh_url: git@github.com:Mierdin/nwkauto.git
+    user: Mierdin
+  - name: nxapi-intf-ansible
+    full_name: Mierdin/nxapi-intf-ansible
+    git_url: git://github.com/Mierdin/nxapi-intf-ansible.git
+    ssh_url: git@github.com:Mierdin/nxapi-intf-ansible.git
+    user: Mierdin
+  - name: ossrouting
+    full_name: Mierdin/ossrouting
+    git_url: git://github.com/Mierdin/ossrouting.git
+    ssh_url: git@github.com:Mierdin/ossrouting.git
+    user: Mierdin
+  - name: prezto
+    full_name: Mierdin/prezto
+    git_url: git://github.com/Mierdin/prezto.git
+    ssh_url: git@github.com:Mierdin/prezto.git
+    user: Mierdin
+  - name: py-infoblox
+    full_name: Mierdin/py-infoblox
+    git_url: git://github.com/Mierdin/py-infoblox.git
+    ssh_url: git@github.com:Mierdin/py-infoblox.git
+    user: Mierdin
+  - name: py-ovsdb
+    full_name: Mierdin/py-ovsdb
+    git_url: git://github.com/Mierdin/py-ovsdb.git
+    ssh_url: git@github.com:Mierdin/py-ovsdb.git
+    user: Mierdin
+  - name: pyflex
+    full_name: Mierdin/pyflex
+    git_url: git://github.com/Mierdin/pyflex.git
+    ssh_url: git@github.com:Mierdin/pyflex.git
+    user: Mierdin
+  - name: pyretic
+    full_name: Mierdin/pyretic
+    git_url: git://github.com/Mierdin/pyretic.git
+    ssh_url: git@github.com:Mierdin/pyretic.git
+    user: Mierdin
+  - name: python-odlclient
+    full_name: Mierdin/python-odlclient
+    git_url: git://github.com/Mierdin/python-odlclient.git
+    ssh_url: git@github.com:Mierdin/python-odlclient.git
+    user: Mierdin
+  - name: python-OpenDaylight
+    full_name: Mierdin/python-OpenDaylight
+    git_url: git://github.com/Mierdin/python-OpenDaylight.git
+    ssh_url: git@github.com:Mierdin/python-OpenDaylight.git
+    user: Mierdin
+  - name: real-world-kubernetes
+    full_name: Mierdin/real-world-kubernetes
+    git_url: git://github.com/Mierdin/real-world-kubernetes.git
+    ssh_url: git@github.com:Mierdin/real-world-kubernetes.git
+    user: Mierdin
+  - name: testrepo
+    full_name: Mierdin/testrepo
+    git_url: git://github.com/Mierdin/testrepo.git
+    ssh_url: git@github.com:Mierdin/testrepo.git
+    user: Mierdin
+  - name: twitter-plugin
+    full_name: Mierdin/twitter-plugin
+    git_url: git://github.com/Mierdin/twitter-plugin.git
+    ssh_url: git@github.com:Mierdin/twitter-plugin.git
+    user: Mierdin
+  - name: ucstools
+    full_name: Mierdin/ucstools
+    git_url: git://github.com/Mierdin/ucstools.git
+    ssh_url: git@github.com:Mierdin/ucstools.git
+    user: Mierdin
+  - name: UltimateUCSBuilder
+    full_name: Mierdin/UltimateUCSBuilder
+    git_url: git://github.com/Mierdin/UltimateUCSBuilder.git
+    ssh_url: git@github.com:Mierdin/UltimateUCSBuilder.git
+    user: Mierdin
+  - name: UltimateUCSBuilderStandalone
+    full_name: Mierdin/UltimateUCSBuilderStandalone
+    git_url: git://github.com/Mierdin/UltimateUCSBuilderStandalone.git
+    ssh_url: git@github.com:Mierdin/UltimateUCSBuilderStandalone.git
+    user: Mierdin
+  - name: vagrant-junos
+    full_name: Mierdin/vagrant-junos
+    git_url: git://github.com/Mierdin/vagrant-junos.git
+    ssh_url: git@github.com:Mierdin/vagrant-junos.git
+    user: Mierdin
+  - name: 30-days-of-commitmas-2015
+    full_name: mrlesmithjr/30-days-of-commitmas-2015
+    git_url: git://github.com/mrlesmithjr/30-days-of-commitmas-2015.git
+    ssh_url: git@github.com:mrlesmithjr/30-days-of-commitmas-2015.git
+    user: mrlesmithjr
+  - name: aci-ansible
+    full_name: mrlesmithjr/aci-ansible
+    git_url: git://github.com/mrlesmithjr/aci-ansible.git
+    ssh_url: git@github.com:mrlesmithjr/aci-ansible.git
+    user: mrlesmithjr
+  - name: acitoolkit
+    full_name: mrlesmithjr/acitoolkit
+    git_url: git://github.com/mrlesmithjr/acitoolkit.git
+    ssh_url: git@github.com:mrlesmithjr/acitoolkit.git
+    user: mrlesmithjr
+  - name: Ansible
+    full_name: mrlesmithjr/Ansible
+    git_url: git://github.com/mrlesmithjr/Ansible.git
+    ssh_url: git@github.com:mrlesmithjr/Ansible.git
+    user: mrlesmithjr
+  - name: ansible-aci
+    full_name: mrlesmithjr/ansible-aci
+    git_url: git://github.com/mrlesmithjr/ansible-aci.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-aci.git
+    user: mrlesmithjr
+  - name: ansible-apache2
+    full_name: mrlesmithjr/ansible-apache2
+    git_url: git://github.com/mrlesmithjr/ansible-apache2.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-apache2.git
+    user: mrlesmithjr
+  - name: ansible-apt-cacher-ng
+    full_name: mrlesmithjr/ansible-apt-cacher-ng
+    git_url: git://github.com/mrlesmithjr/ansible-apt-cacher-ng.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-apt-cacher-ng.git
+    user: mrlesmithjr
+  - name: ansible-apt-mirror
+    full_name: mrlesmithjr/ansible-apt-mirror
+    git_url: git://github.com/mrlesmithjr/ansible-apt-mirror.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-apt-mirror.git
+    user: mrlesmithjr
+  - name: ansible-base
+    full_name: mrlesmithjr/ansible-base
+    git_url: git://github.com/mrlesmithjr/ansible-base.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-base.git
+    user: mrlesmithjr
+  - name: ansible-bashrc
+    full_name: mrlesmithjr/ansible-bashrc
+    git_url: git://github.com/mrlesmithjr/ansible-bashrc.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-bashrc.git
+    user: mrlesmithjr
+  - name: ansible-bootstrap
+    full_name: mrlesmithjr/ansible-bootstrap
+    git_url: git://github.com/mrlesmithjr/ansible-bootstrap.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-bootstrap.git
+    user: mrlesmithjr
+  - name: ansible-cacti
+    full_name: mrlesmithjr/ansible-cacti
+    git_url: git://github.com/mrlesmithjr/ansible-cacti.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-cacti.git
+    user: mrlesmithjr
+  - name: ansible-change-hostname
+    full_name: mrlesmithjr/ansible-change-hostname
+    git_url: git://github.com/mrlesmithjr/ansible-change-hostname.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-change-hostname.git
+    user: mrlesmithjr
+  - name: ansible-clone-git-repos
+    full_name: mrlesmithjr/ansible-clone-git-repos
+    git_url: git://github.com/mrlesmithjr/ansible-clone-git-repos.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-clone-git-repos.git
+    user: mrlesmithjr
+  - name: ansible-collectd
+    full_name: mrlesmithjr/ansible-collectd
+    git_url: git://github.com/mrlesmithjr/ansible-collectd.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-collectd.git
+    user: mrlesmithjr
+  - name: ansible-config-interfaces
+    full_name: mrlesmithjr/ansible-config-interfaces
+    git_url: git://github.com/mrlesmithjr/ansible-config-interfaces.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-config-interfaces.git
+    user: mrlesmithjr
+  - name: ansible-conntrackd
+    full_name: mrlesmithjr/ansible-conntrackd
+    git_url: git://github.com/mrlesmithjr/ansible-conntrackd.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-conntrackd.git
+    user: mrlesmithjr
+  - name: ansible-consul
+    full_name: mrlesmithjr/ansible-consul
+    git_url: git://github.com/mrlesmithjr/ansible-consul.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-consul.git
+    user: mrlesmithjr
+  - name: ansible-dnsmasq
+    full_name: mrlesmithjr/ansible-dnsmasq
+    git_url: git://github.com/mrlesmithjr/ansible-dnsmasq.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-dnsmasq.git
+    user: mrlesmithjr
+  - name: ansible-docker
+    full_name: mrlesmithjr/ansible-docker
+    git_url: git://github.com/mrlesmithjr/ansible-docker.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-docker.git
+    user: mrlesmithjr
+  - name: ansible-domain-join
+    full_name: mrlesmithjr/ansible-domain-join
+    git_url: git://github.com/mrlesmithjr/ansible-domain-join.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-domain-join.git
+    user: mrlesmithjr
+  - name: ansible-elasticsearch
+    full_name: mrlesmithjr/ansible-elasticsearch
+    git_url: git://github.com/mrlesmithjr/ansible-elasticsearch.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-elasticsearch.git
+    user: mrlesmithjr
+  - name: ansible-elk-broker
+    full_name: mrlesmithjr/ansible-elk-broker
+    git_url: git://github.com/mrlesmithjr/ansible-elk-broker.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-elk-broker.git
+    user: mrlesmithjr
+  - name: ansible-elk-es
+    full_name: mrlesmithjr/ansible-elk-es
+    git_url: git://github.com/mrlesmithjr/ansible-elk-es.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-elk-es.git
+    user: mrlesmithjr
+  - name: ansible-elk-haproxy
+    full_name: mrlesmithjr/ansible-elk-haproxy
+    git_url: git://github.com/mrlesmithjr/ansible-elk-haproxy.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-elk-haproxy.git
+    user: mrlesmithjr
+  - name: ansible-elk-kibana
+    full_name: mrlesmithjr/ansible-elk-kibana
+    git_url: git://github.com/mrlesmithjr/ansible-elk-kibana.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-elk-kibana.git
+    user: mrlesmithjr
+  - name: ansible-elk-pre-processor
+    full_name: mrlesmithjr/ansible-elk-pre-processor
+    git_url: git://github.com/mrlesmithjr/ansible-elk-pre-processor.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-elk-pre-processor.git
+    user: mrlesmithjr
+  - name: ansible-elk-processor
+    full_name: mrlesmithjr/ansible-elk-processor
+    git_url: git://github.com/mrlesmithjr/ansible-elk-processor.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-elk-processor.git
+    user: mrlesmithjr
+  - name: ansible-elkstack
+    full_name: mrlesmithjr/ansible-elkstack
+    git_url: git://github.com/mrlesmithjr/ansible-elkstack.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-elkstack.git
+    user: mrlesmithjr
+  - name: ansible-gerrit
+    full_name: mrlesmithjr/ansible-gerrit
+    git_url: git://github.com/mrlesmithjr/ansible-gerrit.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-gerrit.git
+    user: mrlesmithjr
+  - name: ansible-gitlab-ce
+    full_name: mrlesmithjr/ansible-gitlab-ce
+    git_url: git://github.com/mrlesmithjr/ansible-gitlab-ce.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-gitlab-ce.git
+    user: mrlesmithjr
+  - name: ansible-glusterfs
+    full_name: mrlesmithjr/ansible-glusterfs
+    git_url: git://github.com/mrlesmithjr/ansible-glusterfs.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-glusterfs.git
+    user: mrlesmithjr
+  - name: ansible-grafana
+    full_name: mrlesmithjr/ansible-grafana
+    git_url: git://github.com/mrlesmithjr/ansible-grafana.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-grafana.git
+    user: mrlesmithjr
+  - name: ansible-graphite
+    full_name: mrlesmithjr/ansible-graphite
+    git_url: git://github.com/mrlesmithjr/ansible-graphite.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-graphite.git
+    user: mrlesmithjr
+  - name: ansible-graylog
+    full_name: mrlesmithjr/ansible-graylog
+    git_url: git://github.com/mrlesmithjr/ansible-graylog.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-graylog.git
+    user: mrlesmithjr
+  - name: ansible-haproxy
+    full_name: mrlesmithjr/ansible-haproxy
+    git_url: git://github.com/mrlesmithjr/ansible-haproxy.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-haproxy.git
+    user: mrlesmithjr
+  - name: ansible-hashicorp-toolbox
+    full_name: mrlesmithjr/ansible-hashicorp-toolbox
+    git_url: git://github.com/mrlesmithjr/ansible-hashicorp-toolbox.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-hashicorp-toolbox.git
+    user: mrlesmithjr
+  - name: ansible-iperf
+    full_name: mrlesmithjr/ansible-iperf
+    git_url: git://github.com/mrlesmithjr/ansible-iperf.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-iperf.git
+    user: mrlesmithjr
+  - name: ansible-isc-dhcp
+    full_name: mrlesmithjr/ansible-isc-dhcp
+    git_url: git://github.com/mrlesmithjr/ansible-isc-dhcp.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-isc-dhcp.git
+    user: mrlesmithjr
+  - name: ansible-jekyll
+    full_name: mrlesmithjr/ansible-jekyll
+    git_url: git://github.com/mrlesmithjr/ansible-jekyll.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-jekyll.git
+    user: mrlesmithjr
+  - name: ansible-jenkins
+    full_name: mrlesmithjr/ansible-jenkins
+    git_url: git://github.com/mrlesmithjr/ansible-jenkins.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-jenkins.git
+    user: mrlesmithjr
+  - name: ansible-keepalived
+    full_name: mrlesmithjr/ansible-keepalived
+    git_url: git://github.com/mrlesmithjr/ansible-keepalived.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-keepalived.git
+    user: mrlesmithjr
+  - name: ansible-kvm
+    full_name: mrlesmithjr/ansible-kvm
+    git_url: git://github.com/mrlesmithjr/ansible-kvm.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-kvm.git
+    user: mrlesmithjr
+  - name: ansible-logstash
+    full_name: mrlesmithjr/ansible-logstash
+    git_url: git://github.com/mrlesmithjr/ansible-logstash.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-logstash.git
+    user: mrlesmithjr
+  - name: ansible-lsi-megaraid
+    full_name: mrlesmithjr/ansible-lsi-megaraid
+    git_url: git://github.com/mrlesmithjr/ansible-lsi-megaraid.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-lsi-megaraid.git
+    user: mrlesmithjr
+  - name: ansible-m-pdns_zone
+    full_name: mrlesmithjr/ansible-m-pdns_zone
+    git_url: git://github.com/mrlesmithjr/ansible-m-pdns_zone.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-m-pdns_zone.git
+    user: mrlesmithjr
+  - name: ansible-manage-lvm
+    full_name: mrlesmithjr/ansible-manage-lvm
+    git_url: git://github.com/mrlesmithjr/ansible-manage-lvm.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-manage-lvm.git
+    user: mrlesmithjr
+  - name: ansible-manage-ssh-keys
+    full_name: mrlesmithjr/ansible-manage-ssh-keys
+    git_url: git://github.com/mrlesmithjr/ansible-manage-ssh-keys.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-manage-ssh-keys.git
+    user: mrlesmithjr
+  - name: ansible-mariadb-galera-cluster
+    full_name: mrlesmithjr/ansible-mariadb-galera-cluster
+    git_url: git://github.com/mrlesmithjr/ansible-mariadb-galera-cluster.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-mariadb-galera-cluster.git
+    user: mrlesmithjr
+  - name: ansible-mariadb-mysql
+    full_name: mrlesmithjr/ansible-mariadb-mysql
+    git_url: git://github.com/mrlesmithjr/ansible-mariadb-mysql.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-mariadb-mysql.git
+    user: mrlesmithjr
+  - name: ansible-memcached
+    full_name: mrlesmithjr/ansible-memcached
+    git_url: git://github.com/mrlesmithjr/ansible-memcached.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-memcached.git
+    user: mrlesmithjr
+  - name: ansible-module-chaperone
+    full_name: mrlesmithjr/ansible-module-chaperone
+    git_url: git://github.com/mrlesmithjr/ansible-module-chaperone.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-module-chaperone.git
+    user: mrlesmithjr
+  - name: ansible-mongodb
+    full_name: mrlesmithjr/ansible-mongodb
+    git_url: git://github.com/mrlesmithjr/ansible-mongodb.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-mongodb.git
+    user: mrlesmithjr
+  - name: ansible-monit
+    full_name: mrlesmithjr/ansible-monit
+    git_url: git://github.com/mrlesmithjr/ansible-monit.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-monit.git
+    user: mrlesmithjr
+  - name: ansible-mysql
+    full_name: mrlesmithjr/ansible-mysql
+    git_url: git://github.com/mrlesmithjr/ansible-mysql.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-mysql.git
+    user: mrlesmithjr
+  - name: ansible-nagios
+    full_name: mrlesmithjr/ansible-nagios
+    git_url: git://github.com/mrlesmithjr/ansible-nagios.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-nagios.git
+    user: mrlesmithjr
+  - name: ansible-network-tweaks
+    full_name: mrlesmithjr/ansible-network-tweaks
+    git_url: git://github.com/mrlesmithjr/ansible-network-tweaks.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-network-tweaks.git
+    user: mrlesmithjr
+  - name: ansible-nginx
+    full_name: mrlesmithjr/ansible-nginx
+    git_url: git://github.com/mrlesmithjr/ansible-nginx.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-nginx.git
+    user: mrlesmithjr
+  - name: ansible-ntop
+    full_name: mrlesmithjr/ansible-ntop
+    git_url: git://github.com/mrlesmithjr/ansible-ntop.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-ntop.git
+    user: mrlesmithjr
+  - name: ansible-ntp
+    full_name: mrlesmithjr/ansible-ntp
+    git_url: git://github.com/mrlesmithjr/ansible-ntp.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-ntp.git
+    user: mrlesmithjr
+  - name: ansible-openstack
+    full_name: mrlesmithjr/ansible-openstack
+    git_url: git://github.com/mrlesmithjr/ansible-openstack.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-openstack.git
+    user: mrlesmithjr
+  - name: ansible-openvswitch
+    full_name: mrlesmithjr/ansible-openvswitch
+    git_url: git://github.com/mrlesmithjr/ansible-openvswitch.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-openvswitch.git
+    user: mrlesmithjr
+  - name: ansible-owncloud
+    full_name: mrlesmithjr/ansible-owncloud
+    git_url: git://github.com/mrlesmithjr/ansible-owncloud.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-owncloud.git
+    user: mrlesmithjr
+  - name: ansible-pacemaker
+    full_name: mrlesmithjr/ansible-pacemaker
+    git_url: git://github.com/mrlesmithjr/ansible-pacemaker.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-pacemaker.git
+    user: mrlesmithjr
+  - name: ansible-phpipam
+    full_name: mrlesmithjr/ansible-phpipam
+    git_url: git://github.com/mrlesmithjr/ansible-phpipam.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-phpipam.git
+    user: mrlesmithjr
+  - name: ansible-playbooks-chaperone
+    full_name: mrlesmithjr/ansible-playbooks-chaperone
+    git_url: git://github.com/mrlesmithjr/ansible-playbooks-chaperone.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-playbooks-chaperone.git
+    user: mrlesmithjr
+  - name: ansible-plex
+    full_name: mrlesmithjr/ansible-plex
+    git_url: git://github.com/mrlesmithjr/ansible-plex.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-plex.git
+    user: mrlesmithjr
+  - name: ansible-postfix
+    full_name: mrlesmithjr/ansible-postfix
+    git_url: git://github.com/mrlesmithjr/ansible-postfix.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-postfix.git
+    user: mrlesmithjr
+  - name: ansible-powerdns
+    full_name: mrlesmithjr/ansible-powerdns
+    git_url: git://github.com/mrlesmithjr/ansible-powerdns.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-powerdns.git
+    user: mrlesmithjr
+  - name: ansible-quagga
+    full_name: mrlesmithjr/ansible-quagga
+    git_url: git://github.com/mrlesmithjr/ansible-quagga.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-quagga.git
+    user: mrlesmithjr
+  - name: ansible-rabbitmq
+    full_name: mrlesmithjr/ansible-rabbitmq
+    git_url: git://github.com/mrlesmithjr/ansible-rabbitmq.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-rabbitmq.git
+    user: mrlesmithjr
+  - name: ansible-rancid-git
+    full_name: mrlesmithjr/ansible-rancid-git
+    git_url: git://github.com/mrlesmithjr/ansible-rancid-git.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-rancid-git.git
+    user: mrlesmithjr
+  - name: ansible-redis
+    full_name: mrlesmithjr/ansible-redis
+    git_url: git://github.com/mrlesmithjr/ansible-redis.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-redis.git
+    user: mrlesmithjr
+  - name: ansible-role-chaperone
+    full_name: mrlesmithjr/ansible-role-chaperone
+    git_url: git://github.com/mrlesmithjr/ansible-role-chaperone.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-role-chaperone.git
+    user: mrlesmithjr
+  - name: ansible-rsyslog
+    full_name: mrlesmithjr/ansible-rsyslog
+    git_url: git://github.com/mrlesmithjr/ansible-rsyslog.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-rsyslog.git
+    user: mrlesmithjr
+  - name: ansible-rundeck
+    full_name: mrlesmithjr/ansible-rundeck
+    git_url: git://github.com/mrlesmithjr/ansible-rundeck.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-rundeck.git
+    user: mrlesmithjr
+  - name: ansible-samba
+    full_name: mrlesmithjr/ansible-samba
+    git_url: git://github.com/mrlesmithjr/ansible-samba.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-samba.git
+    user: mrlesmithjr
+  - name: ansible-snmpd
+    full_name: mrlesmithjr/ansible-snmpd
+    git_url: git://github.com/mrlesmithjr/ansible-snmpd.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-snmpd.git
+    user: mrlesmithjr
+  - name: ansible-snort
+    full_name: mrlesmithjr/ansible-snort
+    git_url: git://github.com/mrlesmithjr/ansible-snort.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-snort.git
+    user: mrlesmithjr
+  - name: ansible-squid
+    full_name: mrlesmithjr/ansible-squid
+    git_url: git://github.com/mrlesmithjr/ansible-squid.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-squid.git
+    user: mrlesmithjr
+  - name: ansible-suricata
+    full_name: mrlesmithjr/ansible-suricata
+    git_url: git://github.com/mrlesmithjr/ansible-suricata.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-suricata.git
+    user: mrlesmithjr
+  - name: ansible-tftpserver
+    full_name: mrlesmithjr/ansible-tftpserver
+    git_url: git://github.com/mrlesmithjr/ansible-tftpserver.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-tftpserver.git
+    user: mrlesmithjr
+  - name: ansible-timezone
+    full_name: mrlesmithjr/ansible-timezone
+    git_url: git://github.com/mrlesmithjr/ansible-timezone.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-timezone.git
+    user: mrlesmithjr
+  - name: ansible-ufw
+    full_name: mrlesmithjr/ansible-ufw
+    git_url: git://github.com/mrlesmithjr/ansible-ufw.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-ufw.git
+    user: mrlesmithjr
+  - name: ansible-users
+    full_name: mrlesmithjr/ansible-users
+    git_url: git://github.com/mrlesmithjr/ansible-users.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-users.git
+    user: mrlesmithjr
+  - name: ansible-zabbix
+    full_name: mrlesmithjr/ansible-zabbix
+    git_url: git://github.com/mrlesmithjr/ansible-zabbix.git
+    ssh_url: git@github.com:mrlesmithjr/ansible-zabbix.git
+    user: mrlesmithjr
+  - name: cacti
+    full_name: mrlesmithjr/cacti
+    git_url: git://github.com/mrlesmithjr/cacti.git
+    ssh_url: git@github.com:mrlesmithjr/cacti.git
+    user: mrlesmithjr
+  - name: chaperone
+    full_name: mrlesmithjr/chaperone
+    git_url: git://github.com/mrlesmithjr/chaperone.git
+    ssh_url: git@github.com:mrlesmithjr/chaperone.git
+    user: mrlesmithjr
+  - name: chaperone-ui
+    full_name: mrlesmithjr/chaperone-ui
+    git_url: git://github.com/mrlesmithjr/chaperone-ui.git
+    ssh_url: git@github.com:mrlesmithjr/chaperone-ui.git
+    user: mrlesmithjr
+  - name: Couch_to_OpenStack
+    full_name: mrlesmithjr/Couch_to_OpenStack
+    git_url: git://github.com/mrlesmithjr/Couch_to_OpenStack.git
+    ssh_url: git@github.com:mrlesmithjr/Couch_to_OpenStack.git
+    user: mrlesmithjr
+  - name: docker-ansible-playbooks
+    full_name: mrlesmithjr/docker-ansible-playbooks
+    git_url: git://github.com/mrlesmithjr/docker-ansible-playbooks.git
+    ssh_url: git@github.com:mrlesmithjr/docker-ansible-playbooks.git
+    user: mrlesmithjr
+  - name: docker-chaperone
+    full_name: mrlesmithjr/docker-chaperone
+    git_url: git://github.com/mrlesmithjr/docker-chaperone.git
+    ssh_url: git@github.com:mrlesmithjr/docker-chaperone.git
+    user: mrlesmithjr
+  - name: docker-ubuntu-ansible
+    full_name: mrlesmithjr/docker-ubuntu-ansible
+    git_url: git://github.com/mrlesmithjr/docker-ubuntu-ansible.git
+    ssh_url: git@github.com:mrlesmithjr/docker-ubuntu-ansible.git
+    user: mrlesmithjr
+  - name: Graphite_Collectd
+    full_name: mrlesmithjr/Graphite_Collectd
+    git_url: git://github.com/mrlesmithjr/Graphite_Collectd.git
+    ssh_url: git@github.com:mrlesmithjr/Graphite_Collectd.git
+    user: mrlesmithjr
+  - name: graylog2
+    full_name: mrlesmithjr/graylog2
+    git_url: git://github.com/mrlesmithjr/graylog2.git
+    ssh_url: git@github.com:mrlesmithjr/graylog2.git
+    user: mrlesmithjr
+  - name: Logstash_Kibana3
+    full_name: mrlesmithjr/Logstash_Kibana3
+    git_url: git://github.com/mrlesmithjr/Logstash_Kibana3.git
+    ssh_url: git@github.com:mrlesmithjr/Logstash_Kibana3.git
+    user: mrlesmithjr
+  - name: packer-templates
+    full_name: mrlesmithjr/packer-templates
+    git_url: git://github.com/mrlesmithjr/packer-templates.git
+    ssh_url: git@github.com:mrlesmithjr/packer-templates.git
+    user: mrlesmithjr
+  - name: PowerCLI_Scripts
+    full_name: mrlesmithjr/PowerCLI_Scripts
+    git_url: git://github.com/mrlesmithjr/PowerCLI_Scripts.git
+    ssh_url: git@github.com:mrlesmithjr/PowerCLI_Scripts.git
+    user: mrlesmithjr
+  - name: pyvmomi
+    full_name: mrlesmithjr/pyvmomi
+    git_url: git://github.com/mrlesmithjr/pyvmomi.git
+    ssh_url: git@github.com:mrlesmithjr/pyvmomi.git
+    user: mrlesmithjr
+  - name: shell_scripts
+    full_name: mrlesmithjr/shell_scripts
+    git_url: git://github.com/mrlesmithjr/shell_scripts.git
+    ssh_url: git@github.com:mrlesmithjr/shell_scripts.git
+    user: mrlesmithjr

@@ -19,10 +19,11 @@ Role Variables
 github_repo_root: ../../GitHub  #define destination to store GitHub repos to be cloned
 github_users:  #define github user(s) to clone repos from
   - bunchc
+  - debops
   - lowescott
   - Mierdin
   - mrlesmithjr
-repos_file: ../vars/git_repos.yml  #leave this as-is
+repos_file: vars/git_repos.yml  #leave this as-is
 return_items: 1000  #defines the number of items to return per-page on the uri API call to GitHub....This equates to the number of repos.
 ````
 
