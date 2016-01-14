@@ -10,6 +10,7 @@
       apt:
         name: "{{ item }}"
         state: present
+      become: true
       with_items:
         - python-httplib2
       when: ansible_os_family == "Debian"
