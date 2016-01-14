@@ -1,6 +1,6 @@
 ---
 # defaults file for ansible-clone-git-repos
-github_repo_root: ../GitHub  #define destination to store GitHub repos to be cloned
+github_repo_root: ../../GitHub  #define destination to store GitHub repos to be cloned
 github_users:  #define github user(s) to clone repos from
   - bunchc
   - debops
