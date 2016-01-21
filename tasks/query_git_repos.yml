@@ -17,15 +17,17 @@
 
     - name: creating folder
       file:
-        path: "{{ github_repo_root }}/{{ item }}"
+        path: "{{ github_repo_root }}/{{ item.user }}"
         state: directory
       with_items: github_users
 
     - name: gathering repos
       uri:
-        url: "https://api.github.com/users/{{ item }}/repos?per_page={{ return_items }}"
+        url: "https://api.github.com/users/{{ item.0.user }}/repos?per_page={{ return_items }}&page={{ item.1 }}"
       register: github_repos
-      with_items: github_users
+      with_subelements:
+        - github_users
+        - pages
 
     - name: creating repos vars file
       template:

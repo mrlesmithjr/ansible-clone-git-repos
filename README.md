@@ -16,15 +16,33 @@ Role Variables
 ````
 ---
 # defaults file for ansible-clone-git-repos
-github_repo_root: ../../GitHub  #define destination to store GitHub repos to be cloned
-github_users:  #define github user(s) to clone repos from
-  - bunchc
-  - debops
-  - lowescott
-  - Mierdin
-  - mrlesmithjr
-repos_file: vars/git_repos.yml  #leave this as-is
-return_items: 1000  #defines the number of items to return per-page on the uri API call to GitHub....This equates to the number of repos.
+github_repo_root: ~/Git_Projects/GitHub  #define destination to store GitHub repos to be cloned
+github_users:  #define github user(s) to clone repos from and define pages to ensure all repos are gathered.
+  - user: bunchc
+    pages:
+      - 1
+  - user: debops
+    pages:
+      - 1
+      - 2
+  - user: lowescott
+    pages:
+      - 1
+  - user: Mierdin
+    pages:
+      - 1
+  - user: mrlesmithjr
+    pages:
+      - 1
+      - 2
+  - user: dstamen
+    pages:
+      - 1
+  - user: phpipam
+    pages:
+      - 1
+repos_file: ../vars/git_repos.yml  #leave this as-is
+return_items: 100  #defines the number of items to return per-page on the uri API call to GitHub....This equates to the number of repos.
 ````
 
 Execution
