@@ -25,5 +25,5 @@ github_users:  #define github user(s) to clone repos from and define pages to en
   - user: phpipam
     pages:
       - 1
-repos_file: ../vars/git_repos.yml  #leave this as-is
+repos_file: vars/git_repos.yml  #leave this as-is
 return_items: 100  #defines the number of items to return per-page on the uri API call to GitHub....This equates to the number of repos.

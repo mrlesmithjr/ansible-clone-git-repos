@@ -19,7 +19,7 @@
       file:
         path: "{{ github_repo_root }}/{{ item.user }}"
         state: directory
-      with_items: github_users
+      with_items: '{{ github_users }}'
 
     - name: gathering repos
       uri:
