@@ -1,2 +1,5 @@
 ---
 # tasks file for ansible-clone-git-repos
+- include: query_git_repos.yml
+
+- include: clone_git_repos.yml
